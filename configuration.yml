@@ -1,0 +1,21 @@
+linkedin:
+  name: linkedin-worker
+  login_page: https://www.linkedin.com/uas/login
+  username_xpath: //html/body/div/main/div[2]/div[1]/form/div[1]/input
+  password_xpath: //html/body/div/main/div[2]/div[1]/form/div[2]/input
+  sign_in_button_xpath: //html/body/div/main/div[2]/div[1]/form/div[3]/button
+  search_bar_xpath: //html/body/div[4]/header/div/div/div/div[1]/input
+  first_search_element_xpath: //html/body/div[4]/div[3]/div[2]/div/div[1]/main/div/div/div[1]/div/ul/li/div/a/div
+
+mfa:
+  mfa_text: Let's do a quick verification
+  mfa_input_xpath: //html/body/div/main/form/div[1]/input[15]
+  mfa_verify_button_xpath: //html/body/div/main/form/div[2]/button
+
+credentials:
+  username: asdasd
+  password: 123123
+
+files:
+  input_companies: files/companies.csv
+  output_companies: files/companies_output.csv
