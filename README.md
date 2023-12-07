@@ -33,6 +33,12 @@ This project automates LinkedIn data scraping using Playwright, fetching details
   - Set your LinkedIn `credentials`.
   - Define LinkedIn URLs and necessary settings.
 
+### Login Information:
+
+- The initial login checks for the existence of a cookie file on disk to load it. If no cookie exists, it performs a login using provided credentials and saves the cookies for subsequent logins.
+- MFA (Multi-Factor Authentication) is supported. Upon login, if MFA is enabled for the account, the script prompts for an MFA code received via email. Enter the code in the terminal to continue the login process through Playwright.
+- Note: Please adhere to LinkedIn's terms of service and data privacy policies while using this tool. Use responsibly and ethically.
+
 ### Execution
 
 - Activate the virtual environment:
