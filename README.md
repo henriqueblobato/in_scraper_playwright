@@ -51,6 +51,13 @@ This project automates LinkedIn data scraping using Playwright, fetching details
   ```
   The program reads input companies from the CSV file, initiates the scraping process, and writes results to an output file.
 
+## Future Plans
+
+### Utilizing Supervisor D for Multiple Workers
+
+- The usage of Supervisor D within the project indicates the intention to manage and oversee multiple workers within a single instance. This approach aims to enhance scalability and efficiency by allowing simultaneous execution of multiple scraping tasks or workers, thereby optimizing the overall scraping process. The implementation of Supervisor D enables better control and coordination among the workers, ensuring smoother operation and improved resource utilization.
+- In future updates, we plan to further leverage Supervisor D's capabilities to manage and scale the scraping process across multiple workers, enabling enhanced performance and better handling of larger scraping tasks or diverse sets of data.
+
 ## Requirements
 
 - Python 3.x
